@@ -1,0 +1,6 @@
+username: zhuhj89
+baseurl: /blog
+markdown: redcarpet
+safe: false
+pygments: true
+title: 飞鸟集
