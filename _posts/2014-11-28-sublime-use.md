@@ -3,24 +3,26 @@ layout: default
 title: Sublime Text使用
 ---
 ## 解决Sublime Text 3中文显示乱码问题
-1、打开Sublime Text 3，按Ctrl+～打开控制行，复制粘贴以下python代码，然后回车运行。
-2. 复制并粘贴如下代码：
+1. 打开Sublime Text 3，按Ctrl+～打开控制行，复制粘贴以下python代码，然后回车运行。
+   复制并粘贴如下代码：
 ````python
 import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)    
 
 ````
-2、重启Sublime Text 3。
-3、按Ctrl+Shift+P打开命令行，输入Install Package，回车，然后继续输入ConvertToUTF8，回车。
+
+2. 重启Sublime Text 3。
+3. 按Ctrl+Shift+P打开命令行，输入Install Package，回车，然后继续输入ConvertToUTF8，回车。
 等安装好了以后，应该问题就解决了，如果还是不行，再按照安装ConvertToUTF8的方式安装GBK Encoding Support，就好了。
 
 ## 设置字体大小
 
-1 点击工具栏中的Preferences
-2 选择Preferences下的Setings-User
-3 配置文件中添加 "font_size": 14.0
+1. 点击工具栏中的Preferences
+2. 选择Preferences下的Setings-User
+3. 配置文件中添加 "font_size": 14.0
 
 ## 快捷键
-> Ctrl+D 选词 （反复按快捷键，即可继续向下同时选中下一个相同的文本进行同时编辑）
+
+Ctrl+D 选词 （反复按快捷键，即可继续向下同时选中下一个相同的文本进行同时编辑）
 Ctrl+G 跳转到相应的行
 Ctrl+J 合并行（已选择需要合并的多行时）
 Ctrl+L 选择整行（按住-继续选择下行）
