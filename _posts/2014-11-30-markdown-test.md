@@ -34,13 +34,15 @@ title: markdown 语法练习测试
 ### 插入链接
 [baidu](www.baidu.com)
 ### 图片链接
-![](http://f.hiphotos.baidu.com/image/pic/item/a8773912b31bb0518d171423357adab44aede08e.jpg)
+![](http://img3.douban.com/lpic/s27601780.jpg)
 ## 粗体 斜体
 **粗体** *斜体*
 ## 表格
-| name | age | sex |address|
-|:-----:|:---:|:---:|:-----:|
-| zhuhj| 25   | man| beijing|
+| Item      |    Value | Qty  |
+| :-------- | --------:| :--: |
+| Computer  | 1600 USD |  5   |
+| Phone     |   12 USD |  12  |
+| Pipe      |    1 USD | 234  |
 
 
 ## code
