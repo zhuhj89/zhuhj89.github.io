@@ -3,8 +3,10 @@ layout: default
 title: Sublime Text使用
 ---
 ## 解决Sublime Text 3中文显示乱码问题
+
 1. 打开Sublime Text 3，按Ctrl+～打开控制行，复制粘贴以下python代码，然后回车运行。
    复制并粘贴如下代码：
+
 ````python
 import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)    
 ````
@@ -38,8 +40,6 @@ Ctrl+K+L 改为小写
 Ctrl+K+0 展开所有
 Ctrl+Enter 插入行后（快速换行）
 Ctrl+Tab 当前窗口中的标签页切换
-
-
 Ctrl+Shift+A 选择光标位置父标签对儿
 Ctrl+Shift+D 复制光标所在整行，插入在该行之前
 ctrl+shift+F 在文件夹内查找，与普通编辑器不同的地方是sublime允许添加多个文件夹进行查找
@@ -53,18 +53,12 @@ Ctrl+Shift+↓可以移动此行代码，与下行互换
 Ctrl+Shift+[ 折叠代码
 Ctrl+Shift+] 展开代码
 Ctrl+Shift+Enter 光标前插入行
-
-
 Ctrl+PageDown 、Ctrl+PageUp 文件按开启的前后顺序切换
-
-
 Ctrl+Z 撤销
 Ctrl+Y 恢复撤销
 Ctrl+F2 设置/取消书签
 Ctrl+/ 注释整行（如已选择内容，同“Ctrl+Shift+/”效果）
 Ctrl+鼠标左键 可以同时选择要编辑的多处文本
-
-
 Shift+鼠标右键（或使用鼠标中键）可以用鼠标进行竖向多行选择
 Shift+F2 上一个书签
 Shift+Tab 去除缩进
@@ -75,15 +69,9 @@ Alt+Shift+4 左右分屏-4列
 Alt+Shift+5 等分4屏
 Alt+Shift+8 垂直分屏-2屏
 Alt+Shift+9 垂直分屏-3屏
-
-
 Ctrl+Shift+分屏序号 将当前焦点页分配到分屏序号页
-
-
 Alt+. 闭合当前标签
 Alt+F3 选中文本按下快捷键，即可一次性选择全部的相同文本进行同时编辑
-
-
 Tab 缩进 自动完成
 F2 下一个书签
 F6 检测语法错误
