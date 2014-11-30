@@ -35,6 +35,7 @@ title: markdown 语法练习测试
 [baidu](http://www.baidu.com)
 ### 图片链接
 ![](http://img3.douban.com/lpic/s27601780.jpg)
+![](http://img5.douban.com/view/photo/photo/public/p2211218566.jpg)
 ## 粗体 斜体
 **粗体** *斜体*
 ## 表格
