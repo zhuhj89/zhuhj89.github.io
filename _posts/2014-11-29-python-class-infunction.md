@@ -1,8 +1,7 @@
 ---
-layout:default
-title:python 内置方法练习
+layout: default
+title: python 内置方法练习
 ---
-
 ````python
 #coding:utf-8
 class storage(dict):
