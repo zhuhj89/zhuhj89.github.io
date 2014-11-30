@@ -78,4 +78,19 @@ print Route.routes()
 print reduce(lambda x,y:x+y,[['a','a1'],['b']])
 print reduce(lambda x,y:x+y,[['a','a1',['as']],['b','b2','b3']])
 print ['a','a1']+['b','b2','b3']
+# __call__ test
+class DistanceForm(object):
+    def __init__(self, origin):
+        self.origin = origin
+        print "origin :"+str(origin)
+    def __call__(self, x):
+        print "x :"+str(x)
+ 
+p = DistanceForm(100)
+p(2000)
+ 
+输出
+>>> 
+origin :100
+x :2000
 ````
