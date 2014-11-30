@@ -59,7 +59,7 @@ title: markdown 语法练习测试
   <tr>
     <td>2</td><td>Albert Einstein</td><td>Nearly as awesome</td>
   </tr>
-</table
+</table>
 
 
 ## code
