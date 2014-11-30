@@ -1,6 +1,6 @@
 username: zhuhj89
-baseurl: /bloger
+baseurl: /
 markdown: redcarpet
 safe: false
 pygments: true
-title: 飞鸟集
+title: 行知
