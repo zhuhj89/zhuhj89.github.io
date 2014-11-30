@@ -32,7 +32,7 @@ title: markdown 语法练习测试
 
 ## 链接
 ### 插入链接
-[baidu](www.baidu.com)
+[baidu](http://www.baidu.com)
 ### 图片链接
 ![](http://img3.douban.com/lpic/s27601780.jpg)
 ## 粗体 斜体
