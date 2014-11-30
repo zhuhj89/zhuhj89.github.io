@@ -49,7 +49,7 @@ title: markdown 语法练习测试
 | col 3 is      | right-aligned | $1600 |
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
-<table>
+<table class="table table-bordered table-striped table-condensed">
   <tr>
     <th>ID</th><th>Name</th><th>Rank</th>
   </tr>
